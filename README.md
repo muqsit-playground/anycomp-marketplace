@@ -7,6 +7,7 @@ Prerequisites:
 - Java **17+**
 - Maven
 - PostgreSQL (17.x) (although, you can modify the JDBC URI in `application.properties` for other databases)
+<hr/>
 
 1. Build the project and download dependencies:
    ```
