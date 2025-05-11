@@ -1,6 +1,9 @@
 package com.anycomp;
 
-import com.anycomp.entity.*;
+import com.anycomp.entity.BuyerRepository;
+import com.anycomp.entity.ItemRepository;
+import com.anycomp.entity.Purchase;
+import com.anycomp.entity.PurchaseRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

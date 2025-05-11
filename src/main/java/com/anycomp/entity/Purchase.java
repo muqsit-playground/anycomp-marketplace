@@ -2,7 +2,6 @@ package com.anycomp.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.Instant;
 
