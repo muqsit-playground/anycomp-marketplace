@@ -7,8 +7,14 @@ Prerequisites:
 - Java **17+**
 - Maven
 - PostgreSQL (17.x) (although, you can modify the JDBC URI in `application.properties` for other databases)
-<hr/>
 
+The following environment variables must be defined when launching the application. These variables are used in `application.properties`:
+- `DB_HOST`: Hostname or IP of the database with port (e.g., `localhost:5432`)
+- `DB_NAME`: Name of the database to use for the marketplace (e.g., `anycomp`)
+- `DB_USER`: Username for database access (e.g., `anycomp`)
+- `DB_PASS`: Password for the database user
+
+Build steps:
 1. Build the project and download dependencies:
    ```
    mvn clean install
